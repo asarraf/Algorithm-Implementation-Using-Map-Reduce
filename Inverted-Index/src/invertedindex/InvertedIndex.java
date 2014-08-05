@@ -18,9 +18,11 @@ public class InvertedIndex {
 		Job job = Job.getInstance(conf, "JobName");
 		job.setJarByClass(invertedindex.InvertedIndex.class);
 
-		// Code can be inserted to do the Data Munging
-		// That can include removing stop words, punctuation, etc.
-		// But that is not the scope of this Project
+		/**
+		 *  Code can be inserted to do the Data Munging
+		 *  That can include removing stop words, punctuation, etc.
+		 *  But that is not the scope of this Project
+		 */
 
 		// Delete Output directory if it already exists
 		deleteFolder(conf, Constants.outputPath);
