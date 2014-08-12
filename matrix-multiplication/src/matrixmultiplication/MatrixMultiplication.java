@@ -34,8 +34,7 @@ public class MatrixMultiplication {
 			
 			System.out.println("OPERATION SUCCESSFUL");
 			System.out.println("FINAL OUTPUT WRITTEN TO FILE: " + Constants.finalResultPath);
-		}
-		catch(Exception e) {
+		} catch(Exception e) {
 			System.out.println("Cannot Continue ! Some Issue");
 			System.out.println("Reason => " + e.getMessage());
 		}
