@@ -47,8 +47,6 @@ public class PageRankReducer extends Reducer<IntWritable, Text, IntWritable, Tex
 
 		for(int i = 0 ; i < adjList.length ; i++) {
 			if(adjList[i].equals("0.0")) {
-				// Using cancat() function rather than "+" for string
-				// is a good programming practice
 				newAdjList[i] = "0.0";
 			} else {
 				double newRank = sumOfInLinks / count;
