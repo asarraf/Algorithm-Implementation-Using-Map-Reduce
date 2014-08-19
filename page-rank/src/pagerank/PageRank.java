@@ -1,7 +1,5 @@
-// Till now : I am able to find the ranks of the out links from each node in 10 iterations
-// What now?
-// Read the total inLink Ranks
-// Make the decimal point up to 8 digits after decimal <Optional>
+// ANKIT SARRAF
+// Page Rank Algorithm Implementation using Hadoop Map Reduce
 
 package pagerank;
 
