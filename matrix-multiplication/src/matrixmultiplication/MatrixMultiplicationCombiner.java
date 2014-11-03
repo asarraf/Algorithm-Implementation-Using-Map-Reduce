@@ -8,7 +8,7 @@ import java.io.IOException;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
 
-// Combiner Must have the same inputs/ outputs as the Mapper
+// Combiner Must have the same inputs/ outputs as the Mapper output
 public class MatrixMultiplicationCombiner extends
 Reducer<Text, Text, Text, Text> {
 	private int tempStorage [][] = new int[Constants.DIMENSIONS][Constants.DIMENSIONS];
